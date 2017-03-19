@@ -1,17 +1,11 @@
-h1 {
-    color: purple;
-}
-
-h4 {
-    color: red;
-}
-
 li {
-    color: limegreen;
+    border: 2px solid orange;
 }
 
-article {
-    font-size: 17px;
-    font-weight: 300;
-    color: deepskyblue
+#special {
+    background-color: lightgreen;
+}
+
+.completed {
+    text-decoration: line-through;
 }

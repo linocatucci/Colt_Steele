@@ -1,0 +1,27 @@
+h1 {
+    color: purple;
+    /*border-color:purple;
+    border-width: 5px;
+    border-style: solid;*/
+    border: 5px solid purple;
+}
+
+h4 {
+    background: orangered;
+}
+
+li {
+    color: limegreen;
+}
+
+article {
+    font-size: 17px;
+    font-weight: 300;
+    color: deepskyblue
+}
+
+body {
+    background: url(http://www.myfreetextures.com/wp-content/uploads/2011/06/brushedmetal103.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
