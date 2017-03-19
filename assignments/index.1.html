@@ -1,29 +1,38 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <title>Inputs Demo</title>
     <meta charset="UTF-8">
-    <title>My first page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href="css/style.css" rel="stylesheet">-->
 </head>
 
 <body>
-    <h1>Rusty Steele</h1>
+    <h1>radio buttons</h1>
+    <!--
+radio button
+select tag
+textarea tag-->
+    <p>Do you prefer cats or dogs?</p>
+    <form>
+        <label for="dogs">Dogs</label>
+        <input type="radio" id="dogs" name="petChoice" value="DOGS">
+        <label for="cats">cats</label>
+        <input type="radio" id="cats" name="petChoice" value="CATS">
+        <p>What is your favarite color</p>
+        <select name="color">
+            <option value="happy">:)</option>
+            <option >blue</option>
+            <option >green</option>
+            <option >yellow</option>
+        </select>
 
-    <p>hi, I am a dog. Woof!</p>
-    <img src="Zl0A6erm.jpg" alt="This is Rusty">
+        <textarea rows="10" cols="50" name="paragraph"></textarea>
 
-    <h3>Some of my favorite places </h3>
+        <button type="">Go!</button>
+    </form>
 
-    <ul>
-        <li>The Beach</li>
-        <li>The dog park</li>
-        <li>The fire hydrant</li>
-    </ul>
-    <p>Make sure to follow me on
-        <a href="http://www.instagram.com">Instagram</a>
-    </p>
-
-    <script src="app.js"></script>
 
 </body>
 
