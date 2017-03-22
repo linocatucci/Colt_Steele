@@ -1,0 +1,20 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 30%;
+    float: left;
+    /* 3 x 30 = 90%, dus 10 procent verdelen tussen 10% : 6 zijden = 1.66 */
+    margin: 1.66%;
+}
+
+p {
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 1.66%;
+    border-bottom: 2px solid #e4e4e4;
+    width: 30%;
+    padding-bottom: 15px;
+}
