@@ -10,6 +10,24 @@
         .btn-danger {
             background: orange;
         }
+
+        .pink {
+            background: pink;
+            border: solid 1px purple
+        }
+
+        .blue {
+            background: blue;
+            border: solid 1px lightblue;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .orange {
+            background: orange;
+            border: 1px dashed red;
+            height: 50px;
+        }
     </style>
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="bootstrap.js"></script>
@@ -17,7 +35,43 @@
 </head>
 
 <body>
-    <h1>Grid system</h1>
+
+    <div class="container">
+        <!--<div class="row">
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        </div>-->
+        <div class="row">
+            <div class="col-md-3 col-sm-6 pink">
+                <div class="row">
+                    <div class="col-lg-6 orange">FIRST HALF</div>
+                    <div class="col-lg-6 orange">OTHER HALF</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 pink">TOUR DATE!</div>
+            <div class="col-md-3 col-sm-6 pink">TOUR DATE!</div>
+            <div class="col-md-3 col-sm-6 pink">
+                <div class="row">
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--    
 Objectives:
 1. understand the purpose of the Grid System
